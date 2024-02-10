@@ -2,3 +2,39 @@
 title: 'Get Plants'
 openapi: 'GET /plants'
 ---
+## Authentication
+
+All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+
+```json
+"Content-Type": [
+  {
+    "Authentication": `Bearer `
+  }
+]
+```
+
+```url
+http://localhost:3000/api/workspace/workspaces?userId=65c1a638d62195f4cfe4d4fe
+```
+
+Request Headers
+Cache-Control
+no-cache
+Postman-Token
+<calculated when request is sent>
+Host
+<calculated when request is sent>
+User-Agent
+PostmanRuntime/7.32.1
+Accept
+*/*
+Accept-Encoding
+gzip, deflate, br
+Connection
+keep-alive
+Authorization
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJvYmJ5QHByb3BiZWFyLmlvIiwiaWQiOiI2NWMxYTYzOGQ2MjE5NWY0Y2ZlNGQ0ZmUiLCJpYXQiOjE3MDc1ODE3MzcsImV4cCI6MTcwODQ0NTczN30.NZYo92b_abN0WrxkOcpX28JOWh0bsj_fW_3JOe87dH4
+Query Params
+userId
+65c1a638d62195f4cfe4d4fe

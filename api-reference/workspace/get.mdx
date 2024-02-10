@@ -1,0 +1,27 @@
+---
+title: 'Get My Workspaces'
+description: 'Will allow the user to retreive his workspaces'
+params: userId
+---
+
+## Params
+
+<ResponseField name="userId" type="string" required>
+This is the ObjectId to retrieve a users workspaces.
+
+Example: `65c1a638d62195f4cfe4d4fe`
+
+</ResponseField>
+
+<ResponseField name="Authorization" type="string" required>
+  JWT token sent to headers
+  <Expandable title="Navigation">
+    <ResponseField name="group" type="string">
+    The token retrieved from jwt
+
+    Example: `Bearer 125bl21j5a9-9zzx9v-g8-kljadhf93BPasc9244`
+
+    </ResponseField>
+
+  </Expandable>
+</ResponseField>
