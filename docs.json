@@ -23,10 +23,26 @@
           "anchor": "App",
           "icon": "computer",
           "href": "https://app.reliocrm.com"
+        },
+        {
+          "anchor": "Changelog",
+          "icon": "list",
+          "href": "/changelog"
         }
       ]
     },
     "tabs": [
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Changelog",
+            "pages": [
+              "changelog"
+            ]
+          }
+        ]
+      },
       {
         "tab": "Guides",
         "groups": [
